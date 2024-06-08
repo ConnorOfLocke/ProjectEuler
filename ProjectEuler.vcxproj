@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{f1af36c0-2a94-4281-9a7d-1f9c3783ea58}</ProjectGuid>
+    <RootNamespace>ProjectEuler</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Euler10\Euler10_SumationOfPrimes.cpp" />
+    <ClCompile Include="Euler11\Euler11_DiagonalGridProduct.cpp" />
+    <ClCompile Include="Euler12\Euler12_TriangleNumberFactors.cpp" />
+    <ClCompile Include="Euler13\Euler13_LargeSum.cpp" />
+    <ClCompile Include="Euler14\Euler14_CollatzSequence.cpp" />
+    <ClCompile Include="Euler15\Euler15_LatticePaths.cpp" />
+    <ClCompile Include="Euler16\Euler16_PowerDigitSum.cpp" />
+    <ClCompile Include="Euler17\Euler17_NumberLetterCounts.cpp" />
+    <ClCompile Include="Euler18\Euler18_MaximumPathSum.cpp" />
+    <ClCompile Include="Euler19\Euler19_CountingSundays.cpp" />
+    <ClCompile Include="Euler1\Euler1_3_5_Multiples.cpp" />
+    <ClCompile Include="Euler20\Euler20_FactorialDigitSum.cpp" />
+    <ClCompile Include="Euler21\Euler21_AmicableNumbers.cpp" />
+    <ClCompile Include="Euler22\Euler22_NamesScores.cpp" />
+    <ClCompile Include="Euler23\Euler23_NonAbundantSums.cpp" />
+    <ClCompile Include="Euler24\Euler24_LexicographicPermutations.cpp" />
+    <ClCompile Include="Euler25\Euler25_FibonacciNumber.cpp" />
+    <ClCompile Include="Euler2\Euler2_EvenFibonacci.cpp" />
+    <ClCompile Include="Euler3\Euler3_LargestPrimeFactor.cpp" />
+    <ClCompile Include="Euler4\Euler4_LargestPalindrome.cpp" />
+    <ClCompile Include="Euler5\Euler5_SmallestMultiple.cpp" />
+    <ClCompile Include="Euler6\Euler6_SumSquareDifference.cpp" />
+    <ClCompile Include="Euler7\Euler7_FindAPrime.cpp" />
+    <ClCompile Include="Euler8\Euler8_LargestProductInSeries.cpp" />
+    <ClCompile Include="Euler9\Euler9_PythagoreanTriplet.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="TemplateProject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Euler10\Euler10_SumationOfPrimes.h" />
+    <ClInclude Include="Euler11\Euler11_DiagonalGridProduct.h" />
+    <ClInclude Include="Euler12\Euler12_TriangleNumberFactors.h" />
+    <ClInclude Include="Euler13\Euler13_LargeSum.h" />
+    <ClInclude Include="Euler14\Euler14_CollatzSequence.h" />
+    <ClInclude Include="Euler15\Euler15_LatticePaths.h" />
+    <ClInclude Include="Euler16\Euler16_PowerDigitSum.h" />
+    <ClInclude Include="Euler17\Euler17_NumberLetterCounts.h" />
+    <ClInclude Include="Euler18\Euler18_MaximumPathSum.h" />
+    <ClInclude Include="Euler19\Euler19_CountingSundays.h" />
+    <ClInclude Include="Euler1\Euler1_3_5_Multiples.h" />
+    <ClInclude Include="Euler20\Euler20_FactorialDigitSum.h" />
+    <ClInclude Include="Euler21\Euler21_AmicableNumbers.h" />
+    <ClInclude Include="Euler22\Euler22_NamesScores.h" />
+    <ClInclude Include="Euler23\Euler23_NonAbundantSums.h" />
+    <ClInclude Include="Euler24\Euler24_LexicographicPermutations.h" />
+    <ClInclude Include="Euler25\Euler25_FibonacciNumber.h" />
+    <ClInclude Include="Euler2\Euler2_EvenFibonacci.h" />
+    <ClInclude Include="Euler3\Euler3_LargestPrimeFactor.h" />
+    <ClInclude Include="Euler4\Euler4_LargestPalindrome.h" />
+    <ClInclude Include="Euler5\Euler5_SmallestMultiple.h" />
+    <ClInclude Include="Euler6\Euler6_SumSquareDifference.h" />
+    <ClInclude Include="Euler7\Euler7_FindAPrime.h" />
+    <ClInclude Include="Euler8\Euler8_LargestProductInSeries.h" />
+    <ClInclude Include="Euler9\Euler9_PythagoreanTriplet.h" />
+    <ClInclude Include="EulerProjects.h" />
+    <ClInclude Include="TemplateProject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="0022_names.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

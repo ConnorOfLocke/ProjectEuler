@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ProjectHeaders">
+      <UniqueIdentifier>{c6886549-416f-4172-beae-633fa64f5008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProjectSource">
+      <UniqueIdentifier>{ce4a09b4-606a-4752-b608-3946efc11161}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler2\Euler2_EvenFibonacci.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler3\Euler3_LargestPrimeFactor.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler4\Euler4_LargestPalindrome.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler5\Euler5_SmallestMultiple.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler6\Euler6_SumSquareDifference.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler1\Euler1_3_5_Multiples.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler7\Euler7_FindAPrime.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler8\Euler8_LargestProductInSeries.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler9\Euler9_PythagoreanTriplet.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler10\Euler10_SumationOfPrimes.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler11\Euler11_DiagonalGridProduct.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler12\Euler12_TriangleNumberFactors.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler13\Euler13_LargeSum.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler14\Euler14_CollatzSequence.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler25\Euler25_FibonacciNumber.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler15\Euler15_LatticePaths.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler16\Euler16_PowerDigitSum.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler17\Euler17_NumberLetterCounts.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler18\Euler18_MaximumPathSum.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler19\Euler19_CountingSundays.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler20\Euler20_FactorialDigitSum.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler21\Euler21_AmicableNumbers.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler22\Euler22_NamesScores.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler23\Euler23_NonAbundantSums.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler24\Euler24_LexicographicPermutations.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TemplateProject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EulerProjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler25\Euler25_FibonacciNumber.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler1\Euler1_3_5_Multiples.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler2\Euler2_EvenFibonacci.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler3\Euler3_LargestPrimeFactor.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler4\Euler4_LargestPalindrome.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler5\Euler5_SmallestMultiple.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler6\Euler6_SumSquareDifference.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler7\Euler7_FindAPrime.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler8\Euler8_LargestProductInSeries.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler9\Euler9_PythagoreanTriplet.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler10\Euler10_SumationOfPrimes.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler11\Euler11_DiagonalGridProduct.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler12\Euler12_TriangleNumberFactors.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler13\Euler13_LargeSum.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler14\Euler14_CollatzSequence.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler18\Euler18_MaximumPathSum.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler19\Euler19_CountingSundays.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler20\Euler20_FactorialDigitSum.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler21\Euler21_AmicableNumbers.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler22\Euler22_NamesScores.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler23\Euler23_NonAbundantSums.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler24\Euler24_LexicographicPermutations.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler15\Euler15_LatticePaths.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler16\Euler16_PowerDigitSum.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler17\Euler17_NumberLetterCounts.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="0022_names.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
