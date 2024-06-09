@@ -102,6 +102,9 @@
     <ClCompile Include="Euler24\Euler24_LexicographicPermutations.cpp">
       <Filter>Source Files\ProjectSource</Filter>
     </ClCompile>
+    <ClCompile Include="Euler26\Euler26_ReciprocalCycles.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TemplateProject.h">
@@ -183,6 +186,9 @@
       <Filter>Header Files\ProjectHeaders</Filter>
     </ClInclude>
     <ClInclude Include="Euler17\Euler17_NumberLetterCounts.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler26\Euler26_ReciprocalCycles.h">
       <Filter>Header Files\ProjectHeaders</Filter>
     </ClInclude>
   </ItemGroup>

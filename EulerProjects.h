@@ -25,3 +25,4 @@
 #include "Euler23/Euler23_NonAbundantSums.h"
 #include "Euler24/Euler24_LexicographicPermutations.h"
 #include "Euler25/Euler25_FibonacciNumber.h"
+#include "Euler26/Euler26_ReciprocalCycles.h"

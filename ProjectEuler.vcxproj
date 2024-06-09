@@ -144,6 +144,7 @@
     <ClCompile Include="Euler23\Euler23_NonAbundantSums.cpp" />
     <ClCompile Include="Euler24\Euler24_LexicographicPermutations.cpp" />
     <ClCompile Include="Euler25\Euler25_FibonacciNumber.cpp" />
+    <ClCompile Include="Euler26\Euler26_ReciprocalCycles.cpp" />
     <ClCompile Include="Euler2\Euler2_EvenFibonacci.cpp" />
     <ClCompile Include="Euler3\Euler3_LargestPrimeFactor.cpp" />
     <ClCompile Include="Euler4\Euler4_LargestPalindrome.cpp" />
@@ -173,6 +174,7 @@
     <ClInclude Include="Euler23\Euler23_NonAbundantSums.h" />
     <ClInclude Include="Euler24\Euler24_LexicographicPermutations.h" />
     <ClInclude Include="Euler25\Euler25_FibonacciNumber.h" />
+    <ClInclude Include="Euler26\Euler26_ReciprocalCycles.h" />
     <ClInclude Include="Euler2\Euler2_EvenFibonacci.h" />
     <ClInclude Include="Euler3\Euler3_LargestPrimeFactor.h" />
     <ClInclude Include="Euler4\Euler4_LargestPalindrome.h" />

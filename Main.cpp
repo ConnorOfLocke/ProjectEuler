@@ -8,7 +8,7 @@ int main()
 {
     std::cout << "Euler Projcts!\n";
     
-    Euler25_FibonacciNumber* project = new Euler25_FibonacciNumber();
+    Euler26_ReciprocalCycles* project = new Euler26_ReciprocalCycles();
     
     std::cout << "Running " + project->Name() << std::endl << "---------" << std::endl;
     project->Run();
