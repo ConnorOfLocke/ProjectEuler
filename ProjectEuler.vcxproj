@@ -146,6 +146,7 @@
     <ClCompile Include="Euler25\Euler25_FibonacciNumber.cpp" />
     <ClCompile Include="Euler26\Euler26_ReciprocalCycles.cpp" />
     <ClCompile Include="Euler27\Euler27_QuadraticPrimes.cpp" />
+    <ClCompile Include="Euler28\Euler28_NumberSpiralDiagonals.cpp" />
     <ClCompile Include="Euler2\Euler2_EvenFibonacci.cpp" />
     <ClCompile Include="Euler3\Euler3_LargestPrimeFactor.cpp" />
     <ClCompile Include="Euler4\Euler4_LargestPalindrome.cpp" />
@@ -177,6 +178,7 @@
     <ClInclude Include="Euler25\Euler25_FibonacciNumber.h" />
     <ClInclude Include="Euler26\Euler26_ReciprocalCycles.h" />
     <ClInclude Include="Euler27\Euler27_QuadraticPrimes.h" />
+    <ClInclude Include="Euler28\Euler28_NumberSpiralDiagonals.h" />
     <ClInclude Include="Euler2\Euler2_EvenFibonacci.h" />
     <ClInclude Include="Euler3\Euler3_LargestPrimeFactor.h" />
     <ClInclude Include="Euler4\Euler4_LargestPalindrome.h" />

@@ -108,6 +108,9 @@
     <ClCompile Include="Euler27\Euler27_QuadraticPrimes.cpp">
       <Filter>Source Files\ProjectSource</Filter>
     </ClCompile>
+    <ClCompile Include="Euler28\Euler28_NumberSpiralDiagonals.cpp">
+      <Filter>Source Files\ProjectSource</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TemplateProject.h">
@@ -195,6 +198,9 @@
       <Filter>Header Files\ProjectHeaders</Filter>
     </ClInclude>
     <ClInclude Include="Euler27\Euler27_QuadraticPrimes.h">
+      <Filter>Header Files\ProjectHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler28\Euler28_NumberSpiralDiagonals.h">
       <Filter>Header Files\ProjectHeaders</Filter>
     </ClInclude>
   </ItemGroup>

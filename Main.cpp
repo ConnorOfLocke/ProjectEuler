@@ -8,7 +8,7 @@ int main()
 {
     std::cout << "Euler Projcts!\n";
     
-    Euler27_QuadraticPrimes* project = new Euler27_QuadraticPrimes();
+    Euler28_NumberSpiralDiagonals* project = new Euler28_NumberSpiralDiagonals();
     
     std::cout << "Running " + project->Name() << std::endl << "---------" << std::endl;
     project->Run();
