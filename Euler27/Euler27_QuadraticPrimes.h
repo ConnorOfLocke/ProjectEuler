@@ -1,12 +1,12 @@
 #pragma once
 #include "../TemplateProject.h"
 
-class Euler26_ReciprocalCycles : TemplateProject
+class Euler27_QuadraticPrimes : TemplateProject
 {
 public:
 	//Constructors
-	Euler26_ReciprocalCycles();
-	~Euler26_ReciprocalCycles();
+	Euler27_QuadraticPrimes();
+	~Euler27_QuadraticPrimes();
 
 	//Overrides
 	std::string Name();

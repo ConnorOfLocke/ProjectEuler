@@ -21,7 +21,7 @@ int TemplateProject::GetInputValue()
 	return inputNumber;
 }
 
-std::vector<long> TemplateProject::GeneratePrimes(const long _upperBound)
+std::vector<long> TemplateProject::GeneratePrimes(const long& _upperBound)
 {	
 	long checkFactor = 2;
 
@@ -41,7 +41,9 @@ std::vector<long> TemplateProject::GeneratePrimes(const long _upperBound)
 
 	//Sieve of Eratosthenes method
 	int primeSize = (int)primeList.size();
-	for (int factorIndex = 4; factorIndex < primeSize / 2; factorIndex++)
+	int sqrt_primeSize = ceil(sqrt(primeSize));
+
+	for (int factorIndex = 4; factorIndex < sqrt_primeSize; factorIndex++)
 	{				
 		for (int i = factorIndex + 1; i < primeSize; i++)
 		{
@@ -56,24 +58,35 @@ std::vector<long> TemplateProject::GeneratePrimes(const long _upperBound)
 	return primeList;	
 }
 
-std::string TemplateProject::AddHugeNumbers(const std::string input1, const std::string input2)
+bool TemplateProject::CheckIsPrime(const long& _value)
 {
-	std::vector<std::string> input{ input1, input2 };
+	int sqrt_primeSize = ceil(sqrt(_value));
+	for (int factor = 2; factor < sqrt_primeSize; factor++)
+	{
+		if (_value % factor == 0)
+			return false;
+	}
+	return true;
+}
+
+std::string TemplateProject::AddHugeNumbers(const std::string& _input1, const std::string& _input2)
+{
+	std::vector<std::string> input{ _input1, _input2 };
 	return AddHugeNumbers(input);
 }
 
-std::string TemplateProject::AddHugeNumbers(const std::vector<std::string> inputNumbers)
+std::string TemplateProject::AddHugeNumbers(const std::vector<std::string>& _inputNumbers)
 {
 	//Odd way of calculating the size of the array of strings
-	size_t inputNumberCount = inputNumbers.size();
+	size_t inputNumberCount = _inputNumbers.size();
 
 	//get the largest string size
 	int largestStringSize = 0;
 	for (int i = 0; i < inputNumberCount; i++)
 	{
-		if (inputNumbers[i].size() > largestStringSize)
+		if (_inputNumbers[i].size() > largestStringSize)
 		{
-			largestStringSize = (int)inputNumbers[i].size();
+			largestStringSize = (int)_inputNumbers[i].size();
 		}
 	}
 
@@ -84,10 +97,10 @@ std::string TemplateProject::AddHugeNumbers(const std::vector<std::string> input
 		int digitTotal = 0;
 		for (int i = 0; i < inputNumberCount; i++)
 		{
-			int charIndex = ((int)inputNumbers[i].size() - 1) - digitIndex;
+			int charIndex = ((int)_inputNumbers[i].size() - 1) - digitIndex;
 			if (charIndex >= 0)
 			{
-				digitTotal += (inputNumbers[i][charIndex] - '0');
+				digitTotal += (_inputNumbers[i][charIndex] - '0');
 			}
 		}
 
@@ -128,7 +141,7 @@ std::string TemplateProject::AddHugeNumbers(const std::vector<std::string> input
 	return outputString.str();
 }
 
-std::vector<int> TemplateProject::GetFactors(const int _inputNumber)
+std::vector<int> TemplateProject::GetFactors(const int& _inputNumber)
 {
 	std::vector<int> returnList;
 	returnList.push_back(1);
@@ -142,7 +155,7 @@ std::vector<int> TemplateProject::GetFactors(const int _inputNumber)
 	return returnList;
 }
 
-std::vector<std::string> TemplateProject::ReadTextFile(const std::string _fileName)
+std::vector<std::string> TemplateProject::ReadTextFile(const std::string& _fileName)
 {
 	std::vector<std::string> returnStrings;
 	std::fstream inputFile(_fileName);
